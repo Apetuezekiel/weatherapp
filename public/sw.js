@@ -1,18 +1,8 @@
 const cacheName = "v1";
-// let cachedFiles = ["app.html", "/css/app.css", "/app.js"];
 
 //call install event
 self.addEventListener("install", (e) => {
   console.log("installed");
-  //   e.waitUntil(
-  //     caches
-  //       .open(cacheName)
-  //       .then((cache) => {
-  //         console.log("caching files");
-  //         cache.addAll(cachedFiles);
-  //       })
-  //       .then(() => self.skipWaiting())
-  //   );
 });
 //call activate event
 self.addEventListener("activate", (e) => {
