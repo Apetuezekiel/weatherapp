@@ -32,7 +32,7 @@ function setPosition(position) {
 function displayError(error) {
   mainContainer.style.display = "none";
   errorMessage.innerHTML =
-    `<span>Oops  <img class="cloud2" src="/public/icons/oops3.png" alt="cloud" /><span/> ` +
+    `<span>Oops  <img class="cloud2" src="/icons/oops3.png" alt="cloud" /><span/> ` +
     error.message;
 }
 
@@ -51,7 +51,7 @@ function grabWeatherStat(longitude, latitude) {
       unit.innerHTML = "C";
       descr.innerHTML = data.current.weather[0].description;
       let grabIcon = data.current.weather[0].icon;
-      icon.innerHTML = `<img class="cloud" src="/public/icons/${grabIcon}.png" alt="cloud" />`;
+      icon.innerHTML = `<img class="cloud" src="/icons/${grabIcon}.png" alt="cloud" />`;
     });
 }
 

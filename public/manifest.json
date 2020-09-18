@@ -8,42 +8,42 @@
   "start_url": "/index.html",
   "icons": [
     {
-      "src": "/public/icons/appCon72.png",
+      "src": "/icons/appCon72.png",
       "type": "image/png",
       "sizes": "72x72"
     },
     {
-      "src": "/public/icons/appCon96.png",
+      "src": "/icons/appCon96.png",
       "type": "image/png",
       "sizes": "96x96"
     },
     {
-      "src": "/public/icons/appCon128.png",
+      "src": "/icons/appCon128.png",
       "type": "image/png",
       "sizes": "128x128"
     },
     {
-      "src": "/public/icons/appCon144.png",
+      "src": "/icons/appCon144.png",
       "type": "image/png",
       "sizes": "144x144"
     },
     {
-      "src": "/public/icons/appCon152.png",
+      "src": "/icons/appCon152.png",
       "type": "image/png",
       "sizes": "152x152"
     },
     {
-      "src": "/public/icons/appCon192.png",
+      "src": "/icons/appCon192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "/public/icons/appCon384.png",
+      "src": "/icons/appCon384.png",
       "type": "image/png",
       "sizes": "384x384"
     },
     {
-      "src": "/public/icons/appCon512.png",
+      "src": "/icons/appCon512.png",
       "type": "image/png",
       "sizes": "512x512"
     }

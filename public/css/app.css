@@ -8,7 +8,8 @@
 }
 
 body {
-  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: hidden;
   width: 100vw;
   height: 100vh;
   background-color: #08aeea;
@@ -35,7 +36,7 @@ body {
 }
 
 .timeZone {
-  font-size: 50px;
+  font-size: 300%;
   color: white;
   font-weight: 400px;
   letter-spacing: 7px;
@@ -147,28 +148,29 @@ body {
 /* text-decoration: underline; */
 /* } */
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 800px) {
   .timeZone {
-    font-size: 35px;
+    font-size: 20px;
+    /* display: none; */
   }
 
   .errorMessage {
-    font-size: 35px;
+    font-size: 170%;
   }
 }
 
-@media only screen and (max-width: 770px) {
+@media only screen and (max-width: 1024px) {
   .timeZone {
-    font-size: 42px;
+    /* font-size: 400%; */
   }
 
   .errorMessage {
-    font-size: 42px;
+    /* font-size: 400%; */
   }
 }
 
 .errorMessage {
-  font-size: 30px;
+  font-size: 200%;
   color: white;
   font-weight: 400px;
   letter-spacing: 7px;
